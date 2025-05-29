@@ -1,15 +1,20 @@
 import { StrictMode } from 'react'
 import { createRoot, RectDom } from 'react-dom/client'
 import './index.css'
-import UseEffectHooks from './Components/UseEffectHooks.jsx'
-import UseStateHooks from './Components/UseStateHooks.jsx'
-import UseRefsHooks from './Components/UseRefsHooks.jsx'
-import UseMemoHooks from './Components/UseMemohooks.jsx'
-import UseCallBackHooks from './Components/UseCallbackHooks.jsx'
+import UseEffectHooks from './Components/Hooks/UseEffectHooks.jsx'
+import UseStateHooks from './Components/Hooks/UseStateHooks.jsx'
+import UseRefsHooks from './Components/Hooks/UseRefsHooks.jsx'
+import UseMemoHooks from './Components/Hooks/UseMemohooks.jsx'
+import UseCallBackHooks from './Components/Hooks/UseCallbackHooks.jsx'
 import  AppContext  from './Components/Context/AppContexts.jsx'
 import CreateContexts from './Components/Context/AppContexts.jsx'
 import Header from './Components/Context/Header.jsx'
 import Footer from './Components/Context/Footer.jsx'
+import UseReducer from './Components/Hooks/UseReducerHooks.jsx'
+import UseLayoutEffects from './Components/Hooks/UseLayoutEffect.jsx'
+import UseCustomhooks from './Components/Hooks/UseCustomhooks.jsx'
+
+
 
 createRoot(document.getElementById('root')).render(
   <>
@@ -19,9 +24,12 @@ createRoot(document.getElementById('root')).render(
     {/* <UseRefsHooks/> */}
     {/* <UseMemoHooks/> */}
     {/* <UseCallBackHooks/> */}
-     <CreateContexts>
+     {/* <CreateContexts>
       <Header/>
       <Footer/>
-    </CreateContexts>
+    </CreateContexts> */}
+    {/* <UseReducer/> */}
+    {/* <UseLayoutEffects/> */}
+    <UseCustomhooks/>
  </>
 )
