@@ -30,6 +30,6 @@ createRoot(document.getElementById('root')).render(
     </CreateContexts> */}
     {/* <UseReducer/> */}
     {/* <UseLayoutEffects/> */}
-    <UseCustomhooks/>
+    {/* <UseCustomhooks/> */}
  </>
 )

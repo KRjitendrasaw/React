@@ -6,7 +6,7 @@ const CustomHooks= (key, initaValue) => {
 
     const[name, setName] = useState(
         localStorage.getItem(key) ?
-        localStorage.getItem(key) : initaValue 
+         localStorage.getItem(key) : initaValue
     )
 
     useEffect(()=> {

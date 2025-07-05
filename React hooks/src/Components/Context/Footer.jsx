@@ -3,9 +3,6 @@ import React, { useContext } from 'react'
 
 import { AppContext } from './AppContexts.jsx';
 
-
-
-
 const Footer = () => {
 
     const {phone, Name} = useContext(AppContext);
